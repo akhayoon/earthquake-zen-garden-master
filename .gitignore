@@ -4,3 +4,5 @@ yarn-error.log
 earthquake.code-workspace
 .vscode
 .code-workspace
+# Local Netlify folder
+.netlify

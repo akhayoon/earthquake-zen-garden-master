@@ -1,4 +1,3 @@
-/* eslint-disable arrow-body-style */
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import earthQuakeData from '../../data/earthquakes.json';
