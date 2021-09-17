@@ -1,5 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import {
+  string, number, oneOfType,
+} from 'prop-types';
 import './Field.css';
 
 export default function Field({ label, value }) {
@@ -12,6 +14,6 @@ export default function Field({ label, value }) {
 }
 
 Field.propTypes = {
-  label: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
+  value: oneOfType([string, number]).isRequired,
+  label: string.isRequired,
 };

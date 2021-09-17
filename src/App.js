@@ -17,11 +17,11 @@ export default function App() {
           <Route exact path="/">
             <EarthQuakeList />
           </Route>
-          <Route path="/profile">
-            <Profile />
-          </Route>
           <Route path="/earthquakes/:id">
             <EarthQuakeDetail />
+          </Route>
+          <Route path="/profile">
+            <Profile />
           </Route>
         </Switch>
       </Router>
