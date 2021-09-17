@@ -2,16 +2,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 const htmlPlugin = new HtmlWebpackPlugin({
-  template: './src/index.html',
-  filename: './index.html',
+  template: path.join(__dirname, 'src', 'index.html'),
 });
 
 module.exports = {
-  entry: './src',
+  entry: path.join(__dirname, 'src', 'index.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js',
     clean: true,
+    publicPath: '/',
   },
   module: {
     rules: [

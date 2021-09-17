@@ -20,6 +20,9 @@ export default function App() {
           <Route path="/earthquakes/:id">
             <EarthQuakeDetail />
           </Route>
+          <Route exact path="/earthquakes">
+            <EarthQuakeList />
+          </Route>
           <Route path="/profile">
             <Profile />
           </Route>
