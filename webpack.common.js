@@ -10,8 +10,8 @@ module.exports = {
   entry: './src',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/',
+    filename: '[name].bundle.js',
+    clean: true,
   },
   module: {
     rules: [
@@ -30,12 +30,6 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
     ],
-  },
-  devServer: {
-    historyApiFallback: true,
-  },
-  resolve: {
-    extensions: ['*', '.js', '.jsx'],
   },
   plugins: [htmlPlugin],
 };
