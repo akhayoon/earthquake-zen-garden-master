@@ -1,0 +1,16 @@
+.avatar {
+  width: 12rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 0
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2
+}

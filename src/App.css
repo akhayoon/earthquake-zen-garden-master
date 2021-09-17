@@ -1,0 +1,38 @@
+:root {
+  --pallette-main-light: #ededed;
+  --pallette-light-gray: #777777;
+  --pallette-dark-gray: #444444;
+  --pallette-main-blue: #0011bb;
+  --pallette-main-purple: #6600cc;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: var(--pallette-main-blue);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--pallette-main-purple);
+}
+
+.container {
+  margin: auto;
+  max-width: 40rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}

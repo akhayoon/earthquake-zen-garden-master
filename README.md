@@ -1,6 +1,12 @@
 # earthquake-zen-garden
 
-Foobar is a Python library for dealing with word pluralization.
+This is a simple app that shows a homepage with a list of earthquakes. It has a header with a logo (link back to home), and a link to a profile detail view. Each entry in the table links to a detail view of that particular record.
+
+
+## Demo
+
+The application is deployed on Netlify and can be tested on this link
+
 
 ## Installation
 

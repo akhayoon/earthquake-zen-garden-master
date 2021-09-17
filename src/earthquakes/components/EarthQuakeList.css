@@ -1,0 +1,32 @@
+.earthquake-list {
+  border-collapse: collapse;
+}
+
+.earthquake-list tr th {
+  cursor: pointer;
+  height: 1.5rem;
+  min-width: 8rem;
+  text-align: center;
+}
+
+.earthquake-list tr td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.earthquake-list tr th:after {
+  font-size: 0.6rem;
+  padding-right: 0.5rem;
+}
+
+.earthquake-list .ascending:after {
+  content: ' \25B2';
+}
+
+.earthquake-list .descending:after {
+  content: ' \25BC';
+}
+
+.earthquake-list .primary {
+  text-align: left;
+}

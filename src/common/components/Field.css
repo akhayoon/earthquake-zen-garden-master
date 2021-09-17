@@ -1,0 +1,13 @@
+.field {
+  padding: 0.5rem;
+}
+
+.field.title {
+  font-weight: bold;
+  width: 90px;
+}
+
+.field.value {
+  width: 50%;
+  color: var(--pallette-light-gray);
+}
