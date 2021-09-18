@@ -8,7 +8,7 @@ import './EarthQuakeDetail.css';
 export default function EarthQuakeDetail() {
   const { id } = useParams();
   const detail = earthQuakeData.data.features.find((earthquake) => earthquake.id === id);
-  console.log('is there an id', id)
+
   if (detail) {
     return (
       <div className="detail-container">

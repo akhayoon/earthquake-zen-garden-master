@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test EarthQuakeList Component it should match Snapshot 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    USGS All Earthquakes, Past Hour
+  </h1>
+  <table
+    className="earthquake-list"
+  >
+    <thead>
+      <tr>
+        <th
+          className=""
+          onClick={[Function]}
+        >
+          Title
+        </th>
+        <th
+          className=""
+          onClick={[Function]}
+        >
+          Magnitude
+        </th>
+        <th
+          className=""
+          onClick={[Function]}
+        >
+          Time
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/nc72999021"
+            onClick={[Function]}
+          >
+            3km ENE of The Geysers, CA
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          1.19
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 15:25 PM
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/ci38148464"
+            onClick={[Function]}
+          >
+            11km NE of Aguanga, CA
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          0.54
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 15:24 PM
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/ak19233683"
+            onClick={[Function]}
+          >
+            65km W of Anchor Point, Alaska
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          1.5
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 15:18 PM
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/nn00630289"
+            onClick={[Function]}
+          >
+            31km SE of Bridgeport, California
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          2.3
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 15:10 PM
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/ak19233673"
+            onClick={[Function]}
+          >
+            13km NNW of Fritz Creek, Alaska
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          1.5
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 15:09 PM
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/us2000dzwr"
+            onClick={[Function]}
+          >
+            24km ESE of Nemuro, Japan
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          5.3
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 15:00 PM
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/ci38148440"
+            onClick={[Function]}
+          >
+            10km NE of Aguanga, CA
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          0.93
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 14:57 PM
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/ak19233602"
+            onClick={[Function]}
+          >
+            44km NNW of Valdez, Alaska
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          1.6
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 14:43 PM
+        </td>
+      </tr>
+      <tr>
+        <td
+          className="primary"
+          data-label="Title"
+        >
+          <a
+            href="/earthquakes/ak19233598"
+            onClick={[Function]}
+          >
+            133km WSW of Ruby, Alaska
+          </a>
+        </td>
+        <td
+          data-label="Magnitude"
+        >
+          1.6
+        </td>
+        <td
+          data-label="Time"
+        >
+          Apr 13, 2018 14:39 PM
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
