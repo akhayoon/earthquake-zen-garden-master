@@ -33,12 +33,19 @@ This will automatically open a browser to `localhost:3000`
 
 ## Run Unit Tests
 
-We are using `jest` to test our application.
+This project uses `jest` to test our application.
 
 ```bash
 npm test
 ```
 
+## Production build 
+
+This project uses `webpack`, we create a production build inside the `dist` folder.
+
+```bash
+npm run build
+```
 
 ## File Structure
 We are grouping by feature as listed in the React docs. See
