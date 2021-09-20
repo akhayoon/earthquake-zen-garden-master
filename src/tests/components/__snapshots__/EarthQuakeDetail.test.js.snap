@@ -46,7 +46,7 @@ exports[`Test EarthQuakeDetail Component it should match Snapshot 1`] = `
     <div
       className="field value"
     >
-      Apr 13, 2018 15:25 PM
+      Apr 13, 2018 19:25 PM
     </div>
   </div>
   <div
