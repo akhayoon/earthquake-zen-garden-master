@@ -1,5 +1,99 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Test EarthQuakeDetail Component it should match Snapshot 1`] = `
+<div
+  className="detail-container"
+>
+  <h3>
+    3km ENE of The Geysers, CA
+  </h3>
+  <div
+    className="row"
+  >
+    <div
+      className="field title"
+    >
+      Title
+    </div>
+    <div
+      className="field value"
+    >
+      M 1.2 - 3km ENE of The Geysers, CA
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="field title"
+    >
+      Magnititude
+    </div>
+    <div
+      className="field value"
+    >
+      1.19
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="field title"
+    >
+      Time
+    </div>
+    <div
+      className="field value"
+    >
+      Apr 13, 2018 15:25 PM
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="field title"
+    >
+      Status
+    </div>
+    <div
+      className="field value"
+    >
+      automatic
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="field title"
+    >
+      Tsunami
+    </div>
+    <div
+      className="field value"
+    >
+      0
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="field title"
+    >
+      Type
+    </div>
+    <div
+      className="field value"
+    >
+      earthquake
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Test EarthQuakeList Component it should match Snapshot 1`] = `
 <div
   className="detail-container"
